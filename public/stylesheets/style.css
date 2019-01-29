@@ -1,0 +1,35 @@
+h1 {
+  text-align: center;
+}
+label {
+  text-align: center;
+}
+input[type="submit"] {
+  background-color: grey;
+  color: white;
+}
+div.container {
+  max-width: 500px;
+  margin: auto;
+  width: 50%;
+  border: 1px solid grey;
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+input {
+  margin: 5px;
+  width: 100%;
+}
+div.caption {
+  text-indent: 30%;
+  margin-bottom: 5px;
+}
+footer {
+  margin-top: 50px;
+}
+input[type="checkbox"] {
+  width: auto;
+}
+input[name="firstname"], input[name="lastname"]{
+  width: 46%;
+}

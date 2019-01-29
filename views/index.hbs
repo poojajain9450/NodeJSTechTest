@@ -1,0 +1,24 @@
+<div class="container">
+    <h1>{{title}}</h1>
+    <form action="/signup" method="post">
+            <input name="firstname" type="text" placeholder="First name" required>
+            <input name="lastname" type="text" placeholder="Last name" required>
+            <input name="email" type="email" placeholder="E-mail" id="email" pattern=".+@gmail.com" size="30" required>
+            <div>
+                <input type="password" id="pass" name="password" minlength="8" placeholder="Password" required>
+                    <div class="caption">At least 8 characters</div>
+            </div>
+            <div>
+                <input type="tel" id="phone" placeholder="Phone number" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+                    <div class="caption">Optional</div>
+            </div>
+            <div>
+                <input type="checkbox" id="subscribe" name="subscribe">
+                <label for="subscribe">Subscribe to our newsletter</label>
+            </div>
+            <input type="submit" value="SIGN IN">
+    </form>
+    <footer>By clicking Sign Up you agree to our terms of service</footer>
+</div>
+
+
